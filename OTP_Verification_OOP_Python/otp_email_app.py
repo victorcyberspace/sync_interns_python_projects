@@ -214,8 +214,8 @@ class LoginApp:
         email_port = 587
 
         # Provide the email address and password for authentication
-        email_username = "kaknovinch@gmail.com"
-        email_password = "nyfdvdfiwpjgjrht"  # Replace with the actual password
+        email_username = " "  # Replace with the actual email address
+        email_password = " "  # Replace with the actual password
 
         # Set up the email message content
 
