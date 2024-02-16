@@ -171,8 +171,9 @@ radio1.place(x=140, y=200)
 
 def sound_alarm():
     
-    # Load the magic system sound effect asynchronously
-    mixer.music.load('dance.mp3')
+    # Load your own custom music asynchronously
+    # replace blank space with music file 
+    mixer.music.load(' ')
 
     # Create a separate thread to display the message box
     message_thread = Thread(target=show_message)
